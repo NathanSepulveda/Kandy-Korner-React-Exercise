@@ -41,7 +41,7 @@ class CandyList extends Component {
             {
                 this.props.candyTypes.map(candyType =>
                     
-                    <div key={candyType.id} class="types">
+                    <div key={candyType.id} className="types">
 
                         <strong>Candy Types</strong>: {candyType.type} <br/>
                         <strong>Candies</strong>: 
